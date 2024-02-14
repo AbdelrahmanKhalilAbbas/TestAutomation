@@ -1,0 +1,16 @@
+com\spacejat\dashboard\testcases\CreateChannelTest.class
+com\spacejat\dashboard\pages\MeetingPage.class
+com\spacejat\dashboard\Utils\propertiesUtils.class
+com\spacejat\dashboard\testcases\LoginTest.class
+com\spacejat\dashboard\pages\AllPages.class
+com\spacejat\dashboard\testcases\ChatOneToOneTest.class
+com\spacejat\dashboard\factory\pageFactory.class
+com\spacejat\dashboard\pages\ChannelPage.class
+com\spacejat\dashboard\pages\MainPage.class
+com\spacejat\dashboard\testcases\CreateMeetingTest.class
+com\spacejat\dashboard\pages\HomePage.class
+com\spacejat\dashboard\factory\DriverFactory.class
+com\spacejat\dashboard\base\BaseTest.class
+com\spacejat\dashboard\Utils\ConfigUtils.class
+com\spacejat\dashboard\base\BasePage.class
+com\spacejat\dashboard\pages\ChatOneToOnePage.class

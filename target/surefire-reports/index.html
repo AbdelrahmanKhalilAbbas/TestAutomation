@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 3 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleExitToLoginWithLinkIdentity">ShouldBeAbleExitToLoginWithLinkIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToJoinMeetingAsAGuest">ShouldBeAbleToJoinMeetingAsAGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateChannelTest" class="method navigator-link" hash-for-method="ShouldBeJoinGeneralChannel">ShouldBeJoinGeneralChannel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink">ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleCancelToJoinMeetingAsAGuest">ShouldBeAbleCancelToJoinMeetingAsAGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleCancelToLoginWithInvitationLink">ShouldBeAbleCancelToLoginWithInvitationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleCancelToLoginWithLinkIdentity">ShouldBeAbleCancelToLoginWithLinkIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleCancelToSelectYourIdentity">ShouldBeAbleCancelToSelectYourIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateChannelTest" class="method navigator-link" hash-for-method="ShouldBeAbleCreateTheChannelLocked">ShouldBeAbleCreateTheChannelLocked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateChannelTest" class="method navigator-link" hash-for-method="ShouldBeAbleCreateTheChannelPublic">ShouldBeAbleCreateTheChannelPublic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateMeetingTest" class="method navigator-link" hash-for-method="ShouldBeAbleCreateTheMeetingPrivate">ShouldBeAbleCreateTheMeetingPrivate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateMeetingTest" class="method navigator-link" hash-for-method="ShouldBeAbleCreateTheMeetingPublic">ShouldBeAbleCreateTheMeetingPublic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleExitInvalidToLoginWithLinkIdentity">ShouldBeAbleExitInvalidToLoginWithLinkIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleExitToJoinMeetingAsAGuest">ShouldBeAbleExitToJoinMeetingAsAGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleExitToLoginWithInvitationLink">ShouldBeAbleExitToLoginWithInvitationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleExitToSelectYourIdentity">ShouldBeAbleExitToSelectYourIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleInvalidToLoginWithLinkIdentity">ShouldBeAbleInvalidToLoginWithLinkIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToCancelCreateIdentity">ShouldBeAbleToCancelCreateIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToExitTermsAndConditions">ShouldBeAbleToExitTermsAndConditions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToIconCloseCreateIdentity">ShouldBeAbleToIconCloseCreateIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToLoginWithInvitationLink">ShouldBeAbleToLoginWithInvitationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.LoginTest" class="method navigator-link" hash-for-method="ShouldBeAbleToLoginWithLinkIdentity">ShouldBeAbleToLoginWithLinkIdentity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.ChatOneToOneTest" class="method navigator-link" hash-for-method="ShouldBeAbleToOpenChatOne2One">ShouldBeAbleToOpenChatOne2One</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.spacejat.dashboard.testcases.CreateChannelTest" class="method navigator-link" hash-for-method="ShouldBePinAndUnpinChannelGeneral">ShouldBePinAndUnpinChannelGeneral</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleExitToLoginWithLinkIdentity">
+                  </a> <!-- ShouldBeAbleExitToLoginWithLinkIdentity -->
+                  <span class="method-name">ShouldBeAbleExitToLoginWithLinkIdentity</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.162)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c57e03673b939b2ae19015561d36f1f3, clickElement {id=6403BF056822AF8366F634CCE77D519C_element_234}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.162, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\BIDOKH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52081}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52081/devtoo..., se:cdpVersion: 121.0.6167.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c57e03673b939b2ae19015561d36f1f3)] -&gt; id: buttonIconCloseChannel]
+Session ID: c57e03673b939b2ae19015561d36f1f3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.spacejat.dashboard.pages.MainPage.ExitLoginWithLinkDeviceIdentity(MainPage.java:180)
+	at com.spacejat.dashboard.testcases.LoginTest.ShouldBeAbleExitToLoginWithLinkIdentity(LoginTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test the exit login functionality using link identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToJoinMeetingAsAGuest">
+                  </a> <!-- ShouldBeAbleToJoinMeetingAsAGuest -->
+                  <span class="method-name">ShouldBeAbleToJoinMeetingAsAGuest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=121.0.6167.162)
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4eadda29b572c29fd6374471fc288f10, sendKeysToElement {id=9C7B7E8F1B747843DE7A4D32DF71B287_element_107, value=[Ljava.lang.CharSequence;@263e02b5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.162, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\BIDOKH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52506}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52506/devtoo..., se:cdpVersion: 121.0.6167.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4eadda29b572c29fd6374471fc288f10)] -&gt; id: floatingInputFirstName5]
+Session ID: 4eadda29b572c29fd6374471fc288f10
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.sendKeys(Unknown Source)
+	at com.spacejat.dashboard.pages.MainPage.JoinMeetingAsAGuest(MainPage.java:284)
+	at com.spacejat.dashboard.testcases.LoginTest.ShouldBeAbleToJoinMeetingAsAGuest(LoginTest.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test the Join Meeting functionality AS A Guest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.CreateChannelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeJoinGeneralChannel">
+                  </a> <!-- ShouldBeJoinGeneralChannel -->
+                  <span class="method-name">ShouldBeJoinGeneralChannel</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=121.0.6167.162)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [953e81c55ee095e456852ac42af17740, clickElement {id=EF04DC726AB8E7F7F217EFBB854505DE_element_616}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.162, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\BIDOKH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51712}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51712/devtoo..., se:cdpVersion: 121.0.6167.162, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (953e81c55ee095e456852ac42af17740)] -&gt; xpath: //html/body/div/div[1]/div[53]/div[2]/div[6]/div/div[1]/div[1]]
+Session ID: 953e81c55ee095e456852ac42af17740
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.spacejat.dashboard.pages.HomePage.JoinGeneralChannel(HomePage.java:310)
+	at com.spacejat.dashboard.testcases.CreateChannelTest.ShouldBeJoinGeneralChannel(CreateChannelTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test the Join Channel functionality General Channel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.CreateMeetingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCreateTheMeetingPrivate">
+                  </a> <!-- ShouldBeAbleCreateTheMeetingPrivate -->
+                  <span class="method-name">ShouldBeAbleCreateTheMeetingPrivate</span>
+                  <em>
+(Test the Create meeting functionality Selecting private)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCreateTheMeetingPublic">
+                  </a> <!-- ShouldBeAbleCreateTheMeetingPublic -->
+                  <span class="method-name">ShouldBeAbleCreateTheMeetingPublic</span>
+                  <em>
+(Test the Create meeting functionality Selecting public)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink">
+                  </a> <!-- ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink -->
+                  <span class="method-name">ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink</span>
+                  <em>
+(Test the login functionality using Cancel After Create Identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCancelToJoinMeetingAsAGuest">
+                  </a> <!-- ShouldBeAbleCancelToJoinMeetingAsAGuest -->
+                  <span class="method-name">ShouldBeAbleCancelToJoinMeetingAsAGuest</span>
+                  <em>
+(Test cancel the login Meeting functionality AS A Guest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCancelToLoginWithInvitationLink">
+                  </a> <!-- ShouldBeAbleCancelToLoginWithInvitationLink -->
+                  <span class="method-name">ShouldBeAbleCancelToLoginWithInvitationLink</span>
+                  <em>
+(Test the cancel login functionality using Invitation link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCancelToLoginWithLinkIdentity">
+                  </a> <!-- ShouldBeAbleCancelToLoginWithLinkIdentity -->
+                  <span class="method-name">ShouldBeAbleCancelToLoginWithLinkIdentity</span>
+                  <em>
+(Test the cancel login functionality using link identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCancelToSelectYourIdentity">
+                  </a> <!-- ShouldBeAbleCancelToSelectYourIdentity -->
+                  <span class="method-name">ShouldBeAbleCancelToSelectYourIdentity</span>
+                  <em>
+(Test the login functionality Cancel To Select Your Identity using Invitation link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleExitInvalidToLoginWithLinkIdentity">
+                  </a> <!-- ShouldBeAbleExitInvalidToLoginWithLinkIdentity -->
+                  <span class="method-name">ShouldBeAbleExitInvalidToLoginWithLinkIdentity</span>
+                  <em>
+(Test the exit login functionality using invalid link identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleExitToJoinMeetingAsAGuest">
+                  </a> <!-- ShouldBeAbleExitToJoinMeetingAsAGuest -->
+                  <span class="method-name">ShouldBeAbleExitToJoinMeetingAsAGuest</span>
+                  <em>
+(Test exit the Join Meeting functionality AS A Guest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleExitToLoginWithInvitationLink">
+                  </a> <!-- ShouldBeAbleExitToLoginWithInvitationLink -->
+                  <span class="method-name">ShouldBeAbleExitToLoginWithInvitationLink</span>
+                  <em>
+(Test the exit login functionality using Invitation link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleExitToSelectYourIdentity">
+                  </a> <!-- ShouldBeAbleExitToSelectYourIdentity -->
+                  <span class="method-name">ShouldBeAbleExitToSelectYourIdentity</span>
+                  <em>
+(Test the login functionality exit To Select Your Identity using Invitation link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleInvalidToLoginWithLinkIdentity">
+                  </a> <!-- ShouldBeAbleInvalidToLoginWithLinkIdentity -->
+                  <span class="method-name">ShouldBeAbleInvalidToLoginWithLinkIdentity</span>
+                  <em>
+(Test the login functionality using invalid link identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToCancelCreateIdentity">
+                  </a> <!-- ShouldBeAbleToCancelCreateIdentity -->
+                  <span class="method-name">ShouldBeAbleToCancelCreateIdentity</span>
+                  <em>
+(Test the login functionality using Cancel Create Identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToExitTermsAndConditions">
+                  </a> <!-- ShouldBeAbleToExitTermsAndConditions -->
+                  <span class="method-name">ShouldBeAbleToExitTermsAndConditions</span>
+                  <em>
+(Test exit the Terms And Conditions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToIconCloseCreateIdentity">
+                  </a> <!-- ShouldBeAbleToIconCloseCreateIdentity -->
+                  <span class="method-name">ShouldBeAbleToIconCloseCreateIdentity</span>
+                  <em>
+(Test the login functionality using Close Create Identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToLoginWithInvitationLink">
+                  </a> <!-- ShouldBeAbleToLoginWithInvitationLink -->
+                  <span class="method-name">ShouldBeAbleToLoginWithInvitationLink</span>
+                  <em>
+(Test the login functionality using Invitation link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToLoginWithLinkIdentity">
+                  </a> <!-- ShouldBeAbleToLoginWithLinkIdentity -->
+                  <span class="method-name">ShouldBeAbleToLoginWithLinkIdentity</span>
+                  <em>
+(Test the login functionality using link identity)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.ChatOneToOneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleToOpenChatOne2One">
+                  </a> <!-- ShouldBeAbleToOpenChatOne2One -->
+                  <span class="method-name">ShouldBeAbleToOpenChatOne2One</span>
+                  <em>
+(Test the open chat functionality To Open Chat One To One)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.spacejat.dashboard.testcases.CreateChannelTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCreateTheChannelLocked">
+                  </a> <!-- ShouldBeAbleCreateTheChannelLocked -->
+                  <span class="method-name">ShouldBeAbleCreateTheChannelLocked</span>
+                  <em>
+(Test the Create channel functionality Selecting Locked)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBeAbleCreateTheChannelPublic">
+                  </a> <!-- ShouldBeAbleCreateTheChannelPublic -->
+                  <span class="method-name">ShouldBeAbleCreateTheChannelPublic</span>
+                  <em>
+(Test the Create channel functionality Selecting public)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldBePinAndUnpinChannelGeneral">
+                  </a> <!-- ShouldBePinAndUnpinChannelGeneral -->
+                  <span class="method-name">ShouldBePinAndUnpinChannelGeneral</span>
+                  <em>
+(Test the pin and unpin functionality General Channel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.spacejat.dashboard.base.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.spacejat.dashboard.testcases.ChatOneToOneTest&quot;/&gt;
+      &lt;class name=&quot;com.spacejat.dashboard.testcases.CreateChannelTest&quot;/&gt;
+      &lt;class name=&quot;com.spacejat.dashboard.testcases.CreateMeetingTest&quot;/&gt;
+      &lt;class name=&quot;com.spacejat.dashboard.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ShouldBeAbleCreateTheMeetingPublic')
+data.setCell(0, 2, 'com.spacejat.dashboard.testcases.CreateMeetingTest')
+data.setCell(0, 3, 53147);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ShouldBeAbleToJoinMeetingAsAGuest')
+data.setCell(1, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(1, 3, 43138);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ShouldBeAbleExitToLoginWithLinkIdentity')
+data.setCell(2, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(2, 3, 43015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ShouldBeAbleCreateTheChannelLocked')
+data.setCell(3, 2, 'com.spacejat.dashboard.testcases.CreateChannelTest')
+data.setCell(3, 3, 18418);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ShouldBeAbleToOpenChatOne2One')
+data.setCell(4, 2, 'com.spacejat.dashboard.testcases.ChatOneToOneTest')
+data.setCell(4, 3, 12285);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ShouldBeAbleCreateTheChannelPublic')
+data.setCell(5, 2, 'com.spacejat.dashboard.testcases.CreateChannelTest')
+data.setCell(5, 3, 11207);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ShouldBeAbleCreateTheMeetingPrivate')
+data.setCell(6, 2, 'com.spacejat.dashboard.testcases.CreateMeetingTest')
+data.setCell(6, 3, 10903);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ShouldBePinAndUnpinChannelGeneral')
+data.setCell(7, 2, 'com.spacejat.dashboard.testcases.CreateChannelTest')
+data.setCell(7, 3, 10290);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ShouldBeAbleToCancelCreateIdentity')
+data.setCell(8, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(8, 3, 5565);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ShouldBeAbleToLoginWithInvitationLink')
+data.setCell(9, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(9, 3, 5305);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink')
+data.setCell(10, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(10, 3, 5272);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ShouldBeJoinGeneralChannel')
+data.setCell(11, 2, 'com.spacejat.dashboard.testcases.CreateChannelTest')
+data.setCell(11, 3, 5143);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ShouldBeAbleExitToLoginWithInvitationLink')
+data.setCell(12, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(12, 3, 5098);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ShouldBeAbleExitToSelectYourIdentity')
+data.setCell(13, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(13, 3, 5084);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ShouldBeAbleCancelToLoginWithInvitationLink')
+data.setCell(14, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(14, 3, 4917);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ShouldBeAbleCancelToSelectYourIdentity')
+data.setCell(15, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(15, 3, 4851);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ShouldBeAbleToIconCloseCreateIdentity')
+data.setCell(16, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(16, 3, 4802);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ShouldBeAbleCancelToJoinMeetingAsAGuest')
+data.setCell(17, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(17, 3, 4335);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ShouldBeAbleExitToJoinMeetingAsAGuest')
+data.setCell(18, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(18, 3, 4300);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ShouldBeAbleInvalidToLoginWithLinkIdentity')
+data.setCell(19, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(19, 3, 4006);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ShouldBeAbleToLoginWithLinkIdentity')
+data.setCell(20, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(20, 3, 3844);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ShouldBeAbleToExitTermsAndConditions')
+data.setCell(21, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(21, 3, 3669);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'ShouldBeAbleExitInvalidToLoginWithLinkIdentity')
+data.setCell(22, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(22, 3, 3582);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ShouldBeAbleCancelToLoginWithLinkIdentity')
+data.setCell(23, 2, 'com.spacejat.dashboard.testcases.LoginTest')
+data.setCell(23, 3, 3493);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spacejat.dashboard.testcases.CreateMeetingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">DeleteVideos</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spacejat.dashboard.testcases.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">DeleteVideos</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spacejat.dashboard.testcases.ChatOneToOneTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">DeleteVideos</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spacejat.dashboard.testcases.CreateChannelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">DeleteVideos</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.base.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">DeleteVideos</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.testcases.ChatOneToOneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=ChatOneToOneTest.ShouldBeAbleToOpenChatOne2One()[pri:1...)</span>
+                <span class="method-start">82 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToOpenChatOne2One</span>
+                <span class="method-start">2973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToOpenChatOne2One status=SUCCESS method=ChatOneToOneTest.ShouldBeAbleTo...)</span>
+                <span class="method-start">15278 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.testcases.CreateChannelTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateChannelTest.ShouldBeJoinGeneralChannel()[pri:1, ...)</span>
+                <span class="method-start">17587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShouldBeJoinGeneralChannel</span>
+                <span class="method-start">19636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeJoinGeneralChannel status=FAILURE method=CreateChannelTest.ShouldBeJoinGene...)</span>
+                <span class="method-start">24789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateChannelTest.ShouldBePinAndUnpinChannelGeneral()[...)</span>
+                <span class="method-start">27073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBePinAndUnpinChannelGeneral</span>
+                <span class="method-start">28998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBePinAndUnpinChannelGeneral status=SUCCESS method=CreateChannelTest.ShouldBeP...)</span>
+                <span class="method-start">39289 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateChannelTest.ShouldBeAbleCreateTheChannelLocked()...)</span>
+                <span class="method-start">41506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCreateTheChannelLocked</span>
+                <span class="method-start">43295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCreateTheChannelLocked status=SUCCESS method=CreateChannelTest.ShouldBe...)</span>
+                <span class="method-start">61716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateChannelTest.ShouldBeAbleCreateTheChannelPublic()...)</span>
+                <span class="method-start">63931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCreateTheChannelPublic</span>
+                <span class="method-start">65662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCreateTheChannelPublic status=SUCCESS method=CreateChannelTest.ShouldBe...)</span>
+                <span class="method-start">76872 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.testcases.CreateMeetingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateMeetingTest.ShouldBeAbleCreateTheMeetingPublic()...)</span>
+                <span class="method-start">79166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCreateTheMeetingPublic</span>
+                <span class="method-start">80949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCreateTheMeetingPublic status=SUCCESS method=CreateMeetingTest.ShouldBe...)</span>
+                <span class="method-start">134098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=CreateMeetingTest.ShouldBeAbleCreateTheMeetingPrivate(...)</span>
+                <span class="method-start">136374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCreateTheMeetingPrivate</span>
+                <span class="method-start">138194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCreateTheMeetingPrivate status=SUCCESS method=CreateMeetingTest.ShouldB...)</span>
+                <span class="method-start">149099 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToLoginWithLinkIdentity()[pri:1,...)</span>
+                <span class="method-start">151406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToLoginWithLinkIdentity</span>
+                <span class="method-start">152522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToLoginWithLinkIdentity status=SUCCESS method=LoginTest.ShouldBeAbleToL...)</span>
+                <span class="method-start">156367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleCancelToLoginWithLinkIdentity()[...)</span>
+                <span class="method-start">158603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCancelToLoginWithLinkIdentity</span>
+                <span class="method-start">160365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCancelToLoginWithLinkIdentity status=SUCCESS method=LoginTest.ShouldBeA...)</span>
+                <span class="method-start">163859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleExitToLoginWithLinkIdentity()[pr...)</span>
+                <span class="method-start">166074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShouldBeAbleExitToLoginWithLinkIdentity</span>
+                <span class="method-start">168268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleExitToLoginWithLinkIdentity status=FAILURE method=LoginTest.ShouldBeAbl...)</span>
+                <span class="method-start">211287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleInvalidToLoginWithLinkIdentity()...)</span>
+                <span class="method-start">213529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleInvalidToLoginWithLinkIdentity</span>
+                <span class="method-start">215610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleInvalidToLoginWithLinkIdentity status=SUCCESS method=LoginTest.ShouldBe...)</span>
+                <span class="method-start">219617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleExitInvalidToLoginWithLinkIdenti...)</span>
+                <span class="method-start">221802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleExitInvalidToLoginWithLinkIdentity</span>
+                <span class="method-start">224269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleExitInvalidToLoginWithLinkIdentity status=SUCCESS method=LoginTest.Shou...)</span>
+                <span class="method-start">227852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleExitToLoginWithInvitationLink()[...)</span>
+                <span class="method-start">230085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleExitToLoginWithInvitationLink</span>
+                <span class="method-start">232151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleExitToLoginWithInvitationLink status=SUCCESS method=LoginTest.ShouldBeA...)</span>
+                <span class="method-start">237251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleCancelToLoginWithInvitationLink(...)</span>
+                <span class="method-start">239458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCancelToLoginWithInvitationLink</span>
+                <span class="method-start">241646 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCancelToLoginWithInvitationLink status=SUCCESS method=LoginTest.ShouldB...)</span>
+                <span class="method-start">246564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleCancelToSelectYourIdentity()[pri...)</span>
+                <span class="method-start">248804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCancelToSelectYourIdentity</span>
+                <span class="method-start">250926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCancelToSelectYourIdentity status=SUCCESS method=LoginTest.ShouldBeAble...)</span>
+                <span class="method-start">255779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleExitToSelectYourIdentity()[pri:9...)</span>
+                <span class="method-start">258001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleExitToSelectYourIdentity</span>
+                <span class="method-start">260229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleExitToSelectYourIdentity status=SUCCESS method=LoginTest.ShouldBeAbleEx...)</span>
+                <span class="method-start">265314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToCancelCreateIdentity()[pri:10,...)</span>
+                <span class="method-start">267500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToCancelCreateIdentity</span>
+                <span class="method-start">269517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToCancelCreateIdentity status=SUCCESS method=LoginTest.ShouldBeAbleToCa...)</span>
+                <span class="method-start">275084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToIconCloseCreateIdentity()[pri:...)</span>
+                <span class="method-start">277303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToIconCloseCreateIdentity</span>
+                <span class="method-start">279700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToIconCloseCreateIdentity status=SUCCESS method=LoginTest.ShouldBeAbleT...)</span>
+                <span class="method-start">284504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToLoginWithInvitationLink()[pri:...)</span>
+                <span class="method-start">286686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToLoginWithInvitationLink</span>
+                <span class="method-start">288747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToLoginWithInvitationLink status=SUCCESS method=LoginTest.ShouldBeAbleT...)</span>
+                <span class="method-start">294057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleCancelAfterCreateIdentityToLogin...)</span>
+                <span class="method-start">296298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink</span>
+                <span class="method-start">298417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCancelAfterCreateIdentityToLoginWithInvitationLink status=SUCCESS metho...)</span>
+                <span class="method-start">303690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToJoinMeetingAsAGuest()[pri:16, ...)</span>
+                <span class="method-start">305866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ShouldBeAbleToJoinMeetingAsAGuest</span>
+                <span class="method-start">308053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToJoinMeetingAsAGuest status=FAILURE method=LoginTest.ShouldBeAbleToJoi...)</span>
+                <span class="method-start">351193 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleExitToJoinMeetingAsAGuest()[pri:...)</span>
+                <span class="method-start">353417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleExitToJoinMeetingAsAGuest</span>
+                <span class="method-start">355735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleExitToJoinMeetingAsAGuest status=SUCCESS method=LoginTest.ShouldBeAbleE...)</span>
+                <span class="method-start">360036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleCancelToJoinMeetingAsAGuest()[pr...)</span>
+                <span class="method-start">362225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleCancelToJoinMeetingAsAGuest</span>
+                <span class="method-start">364176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleCancelToJoinMeetingAsAGuest status=SUCCESS method=LoginTest.ShouldBeAbl...)</span>
+                <span class="method-start">368514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp([TestResult name={null} status=CREATED method=LoginTest.ShouldBeAbleToExitTermsAndConditions()[pri:1...)</span>
+                <span class="method-start">370708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShouldBeAbleToExitTermsAndConditions</span>
+                <span class="method-start">371789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TearDown([TestResult name=ShouldBeAbleToExitTermsAndConditions status=SUCCESS method=LoginTest.ShouldBeAbleTo...)</span>
+                <span class="method-start">375458 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.spacejat.dashboard.base.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">377696 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
